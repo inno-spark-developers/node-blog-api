@@ -11,6 +11,7 @@ const notfound = require("./controllers/notfound");
 
 // init app
 const app = express();
+// const app = express();
 
 // connect database
 connectMongodb();
